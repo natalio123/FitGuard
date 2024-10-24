@@ -13,7 +13,7 @@ One of the main causes of death in the globe is cancer. Cancer patients' chances
 | Name | Bangkit-ID | College origin |
 | ------ | ------ | ------ | 
 | Gilang Ramadhan  | c764b4ky1627  | Institute of Technology, Bandung |
-| Alfridus Elman  | c764b4ky0368  | Institute of Technology, Bandung |
+| Alfridus Elman  | C764B4KY0368  | Institute of Technology, Bandung |
 | Andreas Dwiputra Turangan | m309b4ky0523  | Sam Ratulangi University, Manado |
 | Dafa Khairu Fadillah Wantasen | a309b4ky0960 | Sam Ratulangi University, Manado |
 | Fritz Elbert Christopel Manambe | m309b4ky1561 | Sam Ratulangi University, Manado |
