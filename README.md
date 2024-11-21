@@ -16,4 +16,8 @@ Hello, this is our repository. We are a team of 7 people with 3 Machine Learning
 ## What is the purpose of our project?
 FitGuard is a mobile app to help diabetes patients manage daily care through activity reminders, health data tracking, and health advice.
 
-## Tech
+## Tech Stack
+[tech-stack](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tech.jpg)
+
+## Project Demo
+Watch for us soon on youtube
