@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478766820685",
+    "project_id": "fitguard-a531f",
+    "storage_bucket": "fitguard-a531f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478766820685:android:8cd360b10f2ba7a3389b04",
+        "android_client_info": {
+          "package_name": "com.example.fitguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6WdGBvKltrXqtn4u1PeI9Wl4TCWr5fKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
