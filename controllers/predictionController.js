@@ -15,10 +15,8 @@ const predict = async (req, res, next) => {
       pregnancies: 'number|empty:false',
       bloodGlucose: 'number|empty:false',
       bloodPressure: 'number|empty:false',
-      skinThickness: 'number|empty:false',
       insulin: 'number|empty:false',
       bmi: 'number|empty:false',
-      diabetesPedigreeFunction: 'number|empty:false',
       age: 'number|empty:false'
     }
 
@@ -30,16 +28,7 @@ const predict = async (req, res, next) => {
 
     const userId = req.user.id
 
-    const {
-      pregnancies,
-      bloodGlucose,
-      bloodPressure,
-      skinThickness,
-      insulin,
-      bmi,
-      diabetesPedigreeFunction,
-      age
-    } = req.body
+    const { pregnancies, bloodGlucose, bloodPressure, insulin, bmi, age } = req.body
 
     const user = await User.findByPk(userId)
 
@@ -48,26 +37,13 @@ const predict = async (req, res, next) => {
     const model = await predictionModel()
 
     const input = tf.tensor2d(
-      [
-        [
-          pregnancies,
-          bloodGlucose,
-          bloodPressure,
-          skinThickness,
-          insulin,
-          bmi,
-          diabetesPedigreeFunction,
-          age
-        ]
-      ],
-      [1, 8]
+      [[pregnancies, bloodGlucose, bloodPressure, insulin, bmi, age]],
+      [1, 6]
     )
 
     const prediction = model.predict(input)
 
-    const predictionArray = prediction.arraySync()
-
-    const result = predictionArray[0][0]
+    const result = prediction.arraySync()[0]
 
     const outcome = result > 0.5 ? 1 : 0
 
@@ -77,17 +53,15 @@ const predict = async (req, res, next) => {
       pregnancies,
       bloodGlucose,
       bloodPressure,
-      skinThickness,
       insulin,
       bmi,
-      diabetesPedigreeFunction,
       age,
       outcome
     })
 
     return res.json({
       status: 'success',
-      data: { result: result > 0.5 ? 'Diabetes' : 'Non Diabetes', probability: result }
+      data: { result: result > 0.5 ? 'Diabetes' : 'Non Diabetes', probability: result[0] }
     })
   } catch (err) {
     next(err)
