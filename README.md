@@ -21,3 +21,76 @@ We make to help diabetes patients manage daily care through activity reminders, 
 
 ## Project Demo
 Watch for us soon on youtube
+
+## Service Avaliable
+
+> Base url of this service is: http://localhost:3000
+
+  <pre>POST /login</pre>
+  <pre>POST  /register</pre>
+  <pre>POST  /predict</pre>
+
+- Users
+  <pre>GET  /user</pre>
+  <pre>PUT  /user</pre>
+  <pre>DEL  /user/change-password</pre>
+
+- Healths
+  <pre>POST  /health</pre>
+  <pre>GET  /health</pre>
+  <pre>GET  /health/{healthId}</pre>
+  <pre>PUT  /health/{healthId}</pre>
+  <pre>DEL  /health/{healthId}</pre>
+
+- Medications
+  <pre>POST  /medication</pre>
+  <pre>GET  /medication</pre>
+  <pre>GET  /medication/{medicationId}</pre>
+  <pre>PUT  /medication/{medicationId}</pre>
+  <pre>DEL  /medication/{medicationId}</pre>
+
+- Medication Details
+  <pre>POST  /medication/{medicationId}</pre>
+  <pre>GET  /medication/{medicationId}</pre>
+  <pre>GET  /medication/{medicationId}/{medicationDetailId}</pre>
+  <pre>PUT  /medication/{medicationId}/{medicationDetailId}</pre>
+  <pre>DEL  /medication/{medicationId}/{medicationDetailId}</pre>
+
+- Nutritions
+  <pre>POST  /nutrition</pre>
+  <pre>GET  /nutrition</pre>
+  <pre>GET  /nutrition/{medicationId}</pre>
+  <pre>PUT  /nutrition/{medicationId}</pre>
+  <pre>DEL  /nutrition/{medicationId}</pre>
+
+- Physicals
+  <pre>POST  /physical</pre>
+  <pre>GET  /physical</pre>
+  <pre>GET  /physical/{medicationId}</pre>
+  <pre>PUT  /physical/{medicationId}</pre>
+  <pre>DEL  /physical/{medicationId}</pre>
+
+- Waters
+  <pre>POST  /water</pre>
+  <pre>GET  /water</pre>
+  <pre>GET  /water/{medicationId}</pre>
+  <pre>PUT  /water/{medicationId}</pre>
+  <pre>DEL  /water/{medicationId}</pre>
+
+# Quick Look
+
+## Architecture
+
+![Arsitektur](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/arsitektur.jpg)
+
+# Authentications
+
+This service is using token for authentication. You should have an account to access this service. First if you don't have an account, create a new account. Then, create a token for authentication. It's like login, you need to authenticate yourself with username and password. If the autentication is valid, you will get a token. You can use this token to access the service. If dont, you will get a error message.
+
+# Testing
+
+This Web service uses Postman to test.
+
+- You can download the Postman documentation [here]([https://documenter.getpostman.com/view/12239151/Uz5DrdGT](https://documenter.getpostman.com/view/39610757/2sAYHwKjuN)).
+
+If you want to contribute to this project, please contact me.
