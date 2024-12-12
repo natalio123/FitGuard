@@ -81,7 +81,7 @@ Watch for us soon on youtube
 
 ## Architecture
 
-![Arsitektur](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/arsitektur.jpg)
+![arsitektur](https://raw.githubusercontent.com/natalio123/FitGuard/back-end/.github/arsitektur.jpg)
 
 # Authentications
 
