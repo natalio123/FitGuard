@@ -91,6 +91,6 @@ This service is using token for authentication. You should have an account to ac
 
 This Web service uses Postman to test.
 
-- You can download the Postman documentation [here]([https://documenter.getpostman.com/view/12239151/Uz5DrdGT](https://documenter.getpostman.com/view/39610757/2sAYHwKjuN)).
+- You can download the Postman documentation [here](https://documenter.getpostman.com/view/39610757/2sAYHwKjuN).
 
 If you want to contribute to this project, please contact me.
