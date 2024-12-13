@@ -19,5 +19,10 @@ We make to help diabetes patients manage daily care through activity reminders, 
 ## Tech Stack
 ![tech](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tech-stack.jpg)
 
+## Alur Kerja Aplikasi 
+![alur](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/alur_kerja.jpg)
+
+## Tampilan Aplikasi
+![tampilan](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tampilan_apk.jpg)
 ## Project Demo
 Watch for us soon on youtube
