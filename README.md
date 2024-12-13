@@ -1,5 +1,12 @@
 ![Logo](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/fitGuard.png)
 # Bangkit 2024 Capstone Team :  C242-PS402
+## Alur Kerja Aplikasi 
+![alur](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/alur_kerja.jpg)
+
+## Tampilan Aplikasi
+![tampilan](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tampilan_apk.jpg)
+## Project Demo
+Watch for us soon on youtube
 Hello, this is our repository. We are a team of 7 people with 3 Machine Learning, 2 Mobile Developer and 2 Cloud Computing.
 
 ## Capstone Project Team: 
@@ -19,10 +26,3 @@ We make to help diabetes patients manage daily care through activity reminders, 
 ## Tech Stack
 ![tech](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tech-stack.jpg)
 
-## Alur Kerja Aplikasi 
-![alur](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/alur_kerja.jpg)
-
-## Tampilan Aplikasi
-![tampilan](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tampilan_apk.jpg)
-## Project Demo
-Watch for us soon on youtube
