@@ -7,9 +7,9 @@
 ![tampilan](https://raw.githubusercontent.com/natalio123/FitGuard/main/.github/tampilan_apk.jpg)
 ## Project Demo
 Watch for us soon on youtube
-Hello, this is our repository. We are a team of 7 people with 3 Machine Learning, 2 Mobile Developer and 2 Cloud Computing.
 
-## Capstone Project Team: 
+## Capstone Project Team:
+Hello, this is our repository. We are a team of 7 people with 3 Machine Learning, 2 Mobile Developer and 2 Cloud Computing.
 | Name | Bangkit-ID | Role |
 | ------ | ------ | ------ | 
 | Gilang Ramadhan  | C764B4KY1627  | Cloud Computing Engineer |
