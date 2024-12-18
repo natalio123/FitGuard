@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FitGuard</string>
+    <string-array name="data_type_options">
+        <item>Tingkat Glukosa</item>
+        <item>Tekanan Darah</item>
+        <item>Dosis Insulin</item>
+    </string-array>
+    <string name="calories_format">%d cal</string>
+    <string name="nutrition_chart_center_text">Target\n1000 Cal\n\nConsumed\n%d Cal</string>
+    <string name="water_consumption_format">%1$d/%2$d ml</string>
+    <string name="water_amount_format">%1$d ml</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--    Medication-->
+    <string name="frekuensi_prompt">Pilih Frekuensi Konsumsi</string>
+    <string name="durasi_prompt">Pilih Durasi Konsumsi</string>
+    <string name="waktu_prompt">Pilih Waktu Konsumsi</string>
+</resources>
